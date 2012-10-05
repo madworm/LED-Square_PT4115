@@ -1,83 +1,61 @@
-# EESchema Netlist Version 1.1 created  Fri 05 Oct 2012 10:36:40 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 06 Oct 2012 12:02:57 AM CEST
 (
- ( /506F398F $noname  D4 LED {Lib=LED}
-  (    1 N-000006 )
-  (    2 N-000001 )
+ ( /506F358E -C0805 C1 10µF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /506F398D $noname  D6 LED {Lib=LED}
-  (    1 N-000003 )
-  (    2 /TO_IND )
+ ( /506F397A MADW__Nichia-NSS-LED__handsolder D1 LED
+  ( 1 /CSN )
+  ( 2 N-000008 )
  )
- ( /506F398B $noname  D5 LED {Lib=LED}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /506F3981 MADW__Nichia-NSS-LED__handsolder D2 LED
+  ( 1 N-000008 )
+  ( 2 N-000007 )
  )
- ( /506F3988 $noname  D3 LED {Lib=LED}
-  (    1 N-000007 )
-  (    2 N-000006 )
+ ( /506F3988 MADW__Nichia-NSS-LED__handsolder D3 LED
+  ( 1 N-000007 )
+  ( 2 N-000006 )
  )
- ( /506F3981 $noname  D2 LED {Lib=LED}
-  (    1 N-000008 )
-  (    2 N-000007 )
+ ( /506F398F MADW__Nichia-NSS-LED__handsolder D4 LED
+  ( 1 N-000006 )
+  ( 2 N-000001 )
  )
- ( /506F397A $noname  D1 LED {Lib=LED}
-  (    1 /CSN )
-  (    2 N-000008 )
+ ( /506F398B MADW__Nichia-NSS-LED__handsolder D5 LED
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /506F358E $noname  C1 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
+ ( /506F398D MADW__Nichia-NSS-LED__handsolder D6 LED
+  ( 1 N-000003 )
+  ( 2 /TO_IND )
  )
- ( /506F350F $noname  DS1 DIODESCH {Lib=DIODESCH}
-  (    1 /SW )
-  (    2 VCC )
+ ( /506F350F $noname$ DS1 DIODESCH
+  ( 1 /SW )
+  ( 2 VCC )
  )
- ( /506F3496 $noname  R_CS1 1R {Lib=R}
-  (    1 VCC )
-  (    2 /CSN )
+ ( /506F3487 $noname$ L1 100µH
+  ( 1 /SW )
+  ( 2 /TO_IND )
  )
- ( /506F3487 $noname  L1 100µH {Lib=INDUCTOR}
-  (    1 /SW )
-  (    2 /TO_IND )
+ ( /506F3496 -R0805 R_CS1 1R
+  ( 1 VCC )
+  ( 2 /CSN )
  )
- ( /506F3463 $noname  U1 PT4115-SOT89-5 {Lib=MADW__PT4115-SOT89-5}
-  (    1 /SW )
-  (    2 GND )
-  (    3 ? )
-  (    4 /CSN )
-  (    5 VCC )
+ ( /506F3463 MADW__SOT89-5 U1 PT4115-SOT89-5
+  ( 1 /SW )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 /CSN )
+  ( 5 VCC )
  )
 )
 *
 { Allowed footprints by component:
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
+$component D1
  LED-3MM
  LED-5MM
  LED-10MM
@@ -95,7 +73,7 @@ $component D2
  LED-1206
  LEDV
 $endlist
-$component D1
+$component D3
  LED-3MM
  LED-5MM
  LED-10MM
@@ -104,10 +82,32 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component C1
- SM*
- C?
- C1-1
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $component DS1
  D?
@@ -122,40 +122,3 @@ $component R_CS1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- D5 1
- D4 2
-Net 2 "GND" "GND"
- U1 2
- C1 2
-Net 3 "" ""
- D6 1
- D5 2
-Net 5 "VCC" "VCC"
- DS1 2
- C1 1
- U1 5
- R_CS1 1
-Net 6 "" ""
- D3 2
- D4 1
-Net 7 "" ""
- D2 2
- D3 1
-Net 8 "" ""
- D1 2
- D2 1
-Net 9 "/CSN" "CSN"
- U1 4
- R_CS1 2
- D1 1
-Net 10 "/SW" "SW"
- U1 1
- L1 1
- DS1 1
-Net 11 "/TO_IND" "TO_IND"
- L1 2
- D6 2
-}
-#End

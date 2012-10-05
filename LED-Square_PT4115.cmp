@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 05 Oct 2012 10:00:56 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Sat 06 Oct 2012 12:03:41 AM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -11,42 +11,42 @@ BeginCmp
 TimeStamp = /506F397A;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F3981;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F3988;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398F;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398B;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398D;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED;
+IdModule  = MADW__Nichia-NSS-LED__handsolder;
 EndCmp
 
 BeginCmp
