@@ -1,0 +1,313 @@
+EESchema Schematic File Version 2  date Fri 05 Oct 2012 10:36:14 PM CEST
+LIBS:my_parts
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LED-Square_PT4115-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "LED-Square PT4115"
+Date "5 oct 2012"
+Rev "0.10"
+Comp "2012 - blog.spitzenpfeil.org"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 3050 2200
+Wire Wire Line
+	3050 2200 3100 2200
+Wire Wire Line
+	1950 2050 1950 2200
+Connection ~ 4100 2500
+Wire Wire Line
+	4200 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 2400
+Wire Wire Line
+	6550 2200 6550 2500
+Wire Wire Line
+	6550 2500 4800 2500
+Connection ~ 4800 2200
+Wire Wire Line
+	5050 2200 4750 2200
+Wire Wire Line
+	2650 1900 2650 2050
+Wire Wire Line
+	4250 2150 4250 2200
+Wire Wire Line
+	4250 2200 4000 2200
+Wire Wire Line
+	6550 1800 6550 1750
+Wire Wire Line
+	6550 1750 6250 1750
+Wire Wire Line
+	6250 1750 6250 1800
+Wire Wire Line
+	5950 1800 5950 1750
+Wire Wire Line
+	5950 1750 5650 1750
+Wire Wire Line
+	5650 1750 5650 1800
+Wire Wire Line
+	5350 1800 5350 1750
+Wire Wire Line
+	5350 1750 5050 1750
+Wire Wire Line
+	5050 1750 5050 1800
+Wire Wire Line
+	5350 2200 5350 2250
+Wire Wire Line
+	5350 2250 5650 2250
+Wire Wire Line
+	5650 2250 5650 2200
+Wire Wire Line
+	5950 2200 5950 2250
+Wire Wire Line
+	5950 2250 6250 2250
+Wire Wire Line
+	6250 2250 6250 2200
+Wire Wire Line
+	3100 2400 3050 2400
+Wire Wire Line
+	3050 2400 3050 2550
+Wire Wire Line
+	4000 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 2200
+Wire Wire Line
+	2650 2450 2650 2550
+Wire Wire Line
+	4100 2400 4000 2400
+Wire Wire Line
+	4100 2500 4200 2500
+Wire Wire Line
+	4650 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2700
+Wire Wire Line
+	1650 2050 1650 2200
+Text Label 3050 2200 2    60   ~ 0
+DIM
+Text Label 4900 2500 0    60   ~ 0
+TO_IND
+Text Label 4000 2300 0    60   ~ 0
+CSN
+Text Label 4100 2750 2    60   ~ 0
+SW
+Text Notes 4150 2000 0    60   ~ 0
+(24V)
+Text Notes 5600 1700 0    60   ~ 0
+White LEDs
+$Comp
+L VCC #PWR01
+U 1 1 506F3B94
+P 1950 2200
+F 0 "#PWR01" H 1950 2300 30  0001 C CNN
+F 1 "VCC" H 1950 2300 30  0000 C CNN
+	1    1950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 506F3B90
+P 1650 2200
+F 0 "#PWR02" H 1650 2200 30  0001 C CNN
+F 1 "GND" H 1650 2130 30  0001 C CNN
+	1    1650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 506F3B8B
+P 1950 2050
+F 0 "#FLG03" H 1950 2145 30  0001 C CNN
+F 1 "PWR_FLAG" H 1950 2230 30  0000 C CNN
+	1    1950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 506F3B82
+P 1650 2050
+F 0 "#FLG04" H 1650 2145 30  0001 C CNN
+F 1 "PWR_FLAG" H 1650 2230 30  0000 C CNN
+	1    1650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 506F3B33
+P 4800 2700
+F 0 "#PWR05" H 4800 2800 30  0001 C CNN
+F 1 "VCC" H 4800 2800 30  0000 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 506F3A4D
+P 2650 1900
+F 0 "#PWR06" H 2650 2000 30  0001 C CNN
+F 1 "VCC" H 2650 2000 30  0000 C CNN
+	1    2650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 506F3A48
+P 2650 2550
+F 0 "#PWR07" H 2650 2550 30  0001 C CNN
+F 1 "GND" H 2650 2480 30  0001 C CNN
+	1    2650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR08
+U 1 1 506F3A0F
+P 4250 2150
+F 0 "#PWR08" H 4250 2250 30  0001 C CNN
+F 1 "VCC" H 4250 2250 30  0000 C CNN
+	1    4250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 506F39FF
+P 3050 2550
+F 0 "#PWR09" H 3050 2550 30  0001 C CNN
+F 1 "GND" H 3050 2480 30  0001 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 506F398F
+P 5950 2000
+F 0 "D4" H 5950 2100 50  0000 C CNN
+F 1 "LED" H 5950 1900 50  0000 C CNN
+	1    5950 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 506F398D
+P 6550 2000
+F 0 "D6" H 6550 2100 50  0000 C CNN
+F 1 "LED" H 6550 1900 50  0000 C CNN
+	1    6550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 506F398B
+P 6250 2000
+F 0 "D5" H 6250 2100 50  0000 C CNN
+F 1 "LED" H 6250 1900 50  0000 C CNN
+	1    6250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 506F3988
+P 5650 2000
+F 0 "D3" H 5650 2100 50  0000 C CNN
+F 1 "LED" H 5650 1900 50  0000 C CNN
+	1    5650 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 506F3981
+P 5350 2000
+F 0 "D2" H 5350 2100 50  0000 C CNN
+F 1 "LED" H 5350 1900 50  0000 C CNN
+	1    5350 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 506F397A
+P 5050 2000
+F 0 "D1" H 5050 2100 50  0000 C CNN
+F 1 "LED" H 5050 1900 50  0000 C CNN
+	1    5050 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 506F358E
+P 2650 2250
+F 0 "C1" H 2700 2350 50  0000 L CNN
+F 1 "10µF" H 2700 2150 50  0000 L CNN
+	1    2650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH DS1
+U 1 1 506F350F
+P 4400 2750
+F 0 "DS1" H 4400 2850 40  0000 C CNN
+F 1 "DIODESCH" H 4400 2650 40  0000 C CNN
+	1    4400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_CS1
+U 1 1 506F3496
+P 4500 2200
+F 0 "R_CS1" V 4600 2200 50  0000 C CNN
+F 1 "1R" V 4500 2200 50  0000 C CNN
+	1    4500 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 506F3487
+P 4500 2500
+F 0 "L1" V 4450 2500 40  0000 C CNN
+F 1 "100µH" V 4600 2500 40  0000 C CNN
+	1    4500 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MADW__PT4115-SOT89-5 U1
+U 1 1 506F3463
+P 3550 2300
+F 0 "U1" H 3550 2000 60  0000 C CNN
+F 1 "PT4115-SOT89-5" H 3550 2600 60  0000 C CNN
+	1    3550 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

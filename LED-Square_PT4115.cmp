@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 05 Oct 2012 10:00:56 PM CEST
+
+BeginCmp
+TimeStamp = /506F358E;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F397A;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3981;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3988;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F398F;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F398B;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F398D;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = MADW__Nichia-NSS-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F350F;
+Reference = DS1;
+ValeurCmp = DIODESCH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3487;
+Reference = L1;
+ValeurCmp = 100µH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3496;
+Reference = R_CS1;
+ValeurCmp = 1R;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3463;
+Reference = U1;
+ValeurCmp = PT4115-SOT89-5;
+IdModule  = MADW__SOT89-5;
+EndCmp
+
+EndListe
