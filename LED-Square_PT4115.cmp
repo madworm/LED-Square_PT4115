@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 06 Oct 2012 12:03:41 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 06 Oct 2012 01:33:00 AM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -52,15 +52,43 @@ EndCmp
 BeginCmp
 TimeStamp = /506F350F;
 Reference = DS1;
-ValeurCmp = DIODESCH;
-IdModule  = ;
+ValeurCmp = MBRS140T3G;
+IdModule  = MADW__diode-SMB-package;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F3487;
 Reference = L1;
 ValeurCmp = 100µH;
-IdModule  = ;
+IdModule  = -L1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F6219;
+Reference = MH1;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F621C;
+Reference = MH2;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F621F;
+Reference = MH3;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F6221;
+Reference = MH4;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp

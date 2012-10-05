@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 06 Oct 2012 12:02:57 AM CEST
+# EESchema Netlist Version 1.1 created  Sat 06 Oct 2012 01:33:00 AM CEST
 (
  ( /506F358E -C0805 C1 10µF
   ( 1 VCC )
@@ -6,10 +6,10 @@
  )
  ( /506F397A MADW__Nichia-NSS-LED__handsolder D1 LED
   ( 1 /CSN )
-  ( 2 N-000008 )
+  ( 2 N-000005 )
  )
  ( /506F3981 MADW__Nichia-NSS-LED__handsolder D2 LED
-  ( 1 N-000008 )
+  ( 1 N-000005 )
   ( 2 N-000007 )
  )
  ( /506F3988 MADW__Nichia-NSS-LED__handsolder D3 LED
@@ -18,23 +18,35 @@
  )
  ( /506F398F MADW__Nichia-NSS-LED__handsolder D4 LED
   ( 1 N-000006 )
-  ( 2 N-000001 )
+  ( 2 N-000009 )
  )
  ( /506F398B MADW__Nichia-NSS-LED__handsolder D5 LED
-  ( 1 N-000001 )
-  ( 2 N-000003 )
+  ( 1 N-000009 )
+  ( 2 N-000008 )
  )
  ( /506F398D MADW__Nichia-NSS-LED__handsolder D6 LED
-  ( 1 N-000003 )
+  ( 1 N-000008 )
   ( 2 /TO_IND )
  )
- ( /506F350F $noname$ DS1 DIODESCH
+ ( /506F350F MADW__diode-SMB-package DS1 MBRS140T3G
   ( 1 /SW )
   ( 2 VCC )
  )
- ( /506F3487 $noname$ L1 100µH
+ ( /506F3487 -L1812 L1 100µH
   ( 1 /SW )
   ( 2 /TO_IND )
+ )
+ ( /506F6219 MADW__mounting_hole_3mm MH1 CONN_1
+  ( 1 GND )
+ )
+ ( /506F621C MADW__mounting_hole_3mm MH2 CONN_1
+  ( 1 GND )
+ )
+ ( /506F621F MADW__mounting_hole_3mm MH3 CONN_1
+  ( 1 GND )
+ )
+ ( /506F6221 MADW__mounting_hole_3mm MH4 CONN_1
+  ( 1 GND )
  )
  ( /506F3496 -R0805 R_CS1 1R
   ( 1 VCC )
