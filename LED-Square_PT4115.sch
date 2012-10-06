@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Oct 2012 01:17:32 AM CEST
+EESchema Schematic File Version 2  date Sat 06 Oct 2012 12:05:23 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
-Date "5 oct 2012"
+Date "6 oct 2012"
 Rev "0.10"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -45,6 +45,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 6550 2250 2    60   ~ 0
+D6HS
+Text Label 6250 1750 2    60   ~ 0
+D5HS
+Text Label 5950 2250 2    60   ~ 0
+D4HS
+Text Label 5650 1750 2    60   ~ 0
+D3HS
+Text Label 5350 2250 2    60   ~ 0
+D2HS
+Text Label 5050 1750 2    60   ~ 0
+D1HS
 $Comp
 L GND #PWR01
 U 1 1 506F6245
@@ -174,15 +186,13 @@ F 1 "CONN_1" H 1800 2605 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3100 2200
-Text Label 4900 2500 0    60   ~ 0
-TO_IND
 Text Label 4000 2300 0    60   ~ 0
 CSN
 Text Label 4100 2750 2    60   ~ 0
 SW
 Text Notes 4150 2000 0    60   ~ 0
 (24V)
-Text Notes 5600 1700 0    60   ~ 0
+Text Notes 5550 1600 0    60   ~ 0
 White LEDs
 $Comp
 L VCC #PWR02
