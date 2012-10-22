@@ -1,95 +1,89 @@
-# EESchema Netlist Version 1.1 created  Sat 06 Oct 2012 12:05:27 PM CEST
+# EESchema Netlist Version 1.1 created  Mon 22 Oct 2012 06:21:02 PM CEST
 (
- ( /506F6221 $noname  MH4 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /506F358E -C0805 C1 10µF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /506F621F $noname  MH3 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /506F397A MADW__Nichia-NSS-LED__handsolder D1 LED
+  ( 1 /CSN )
+  ( 2 /D1HS )
  )
- ( /506F621C $noname  MH2 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /506F3981 MADW__Nichia-NSS-LED__handsolder D2 LED
+  ( 1 /D1HS )
+  ( 2 /D2HS )
  )
- ( /506F6219 $noname  MH1 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /506F3988 MADW__Nichia-NSS-LED__handsolder D3 LED
+  ( 1 /D2HS )
+  ( 2 /D3HS )
  )
- ( /506F398F $noname  D4 LED {Lib=LED}
-  (    1 /D3HS )
-  (    2 /D4HS )
+ ( /506F398F MADW__Nichia-NSS-LED__handsolder D4 LED
+  ( 1 /D3HS )
+  ( 2 /D4HS )
  )
- ( /506F398D $noname  D6 LED {Lib=LED}
-  (    1 /D5HS )
-  (    2 /D6HS )
+ ( /506F398B MADW__Nichia-NSS-LED__handsolder D5 LED
+  ( 1 /D4HS )
+  ( 2 /D5HS )
  )
- ( /506F398B $noname  D5 LED {Lib=LED}
-  (    1 /D4HS )
-  (    2 /D5HS )
+ ( /506F398D MADW__Nichia-NSS-LED__handsolder D6 LED
+  ( 1 /D5HS )
+  ( 2 /D6HS )
  )
- ( /506F3988 $noname  D3 LED {Lib=LED}
-  (    1 /D2HS )
-  (    2 /D3HS )
+ ( /506F350F MADW__diode-SMB-package DS1 MBRS140T3G
+  ( 1 /SW )
+  ( 2 VCC )
  )
- ( /506F3981 $noname  D2 LED {Lib=LED}
-  (    1 /D1HS )
-  (    2 /D2HS )
+ ( /506F3487 -L1812 L1 100µH
+  ( 1 /SW )
+  ( 2 /D6HS )
  )
- ( /506F397A $noname  D1 LED {Lib=LED}
-  (    1 /CSN )
-  (    2 /D1HS )
+ ( /506F6219 MADW__mounting_hole_3mm MH1 CONN_1
+  ( 1 ? )
  )
- ( /506F358E $noname  C1 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
+ ( /506F621C MADW__mounting_hole_3mm MH2 CONN_1
+  ( 1 ? )
  )
- ( /506F350F $noname  DS1 MBRS140T3G {Lib=DIODESCH}
-  (    1 /SW )
-  (    2 VCC )
+ ( /506F621F MADW__mounting_hole_3mm MH3 CONN_1
+  ( 1 ? )
  )
- ( /506F3496 $noname  R_CS1 1R {Lib=R}
-  (    1 VCC )
-  (    2 /CSN )
+ ( /506F6221 MADW__mounting_hole_3mm MH4 CONN_1
+  ( 1 ? )
  )
- ( /506F3487 $noname  L1 100µH {Lib=INDUCTOR}
-  (    1 /SW )
-  (    2 /D6HS )
+ ( /508570C8 MADW__edge-connector_SIL6_female P1 IN
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 VCC )
+  ( 4 VCC )
+  ( 5 ? )
+  ( 6 /DIM )
  )
- ( /506F3463 $noname  U1 PT4115-SOT89-5 {Lib=MADW__PT4115-SOT89-5}
-  (    1 /SW )
-  (    2 GND )
-  (    3 ? )
-  (    4 /CSN )
-  (    5 VCC )
+ ( /508570CC MADW__edge-connector_SIL6_male P2 OUT
+  ( 1 /DIM )
+  ( 2 ? )
+  ( 3 VCC )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /506F3496 -R0805 R_CS1 1R
+  ( 1 VCC )
+  ( 2 /CSN )
+ )
+ ( /506F3463 MADW__SOT89-5 U1 PT4115-SOT89-5
+  ( 1 /SW )
+  ( 2 GND )
+  ( 3 /DIM )
+  ( 4 /CSN )
+  ( 5 VCC )
  )
 )
 *
 { Allowed footprints by component:
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
+$component D1
  LED-3MM
  LED-5MM
  LED-10MM
@@ -107,7 +101,7 @@ $component D2
  LED-1206
  LEDV
 $endlist
-$component D1
+$component D3
  LED-3MM
  LED-5MM
  LED-10MM
@@ -116,10 +110,32 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component C1
- SM*
- C?
- C1-1
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $component DS1
  D?
@@ -134,44 +150,3 @@ $component R_CS1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "GND" "GND"
- C1 2
- U1 2
- MH4 1
- MH3 1
- MH2 1
- MH1 1
-Net 3 "VCC" "VCC"
- C1 1
- U1 5
- DS1 2
- R_CS1 1
-Net 4 "/D2HS" "D2HS"
- D2 2
- D3 1
-Net 5 "/D4HS" "D4HS"
- D4 2
- D5 1
-Net 6 "/D5HS" "D5HS"
- D6 1
- D5 2
-Net 7 "/CSN" "CSN"
- U1 4
- D1 1
- R_CS1 2
-Net 8 "/SW" "SW"
- U1 1
- L1 1
- DS1 1
-Net 9 "/D1HS" "D1HS"
- D2 1
- D1 2
-Net 10 "/D3HS" "D3HS"
- D4 1
- D3 2
-Net 11 "/D6HS" "D6HS"
- D6 2
- L1 2
-}
-#End

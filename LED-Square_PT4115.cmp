@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 06 Oct 2012 01:33:00 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 22 Oct 2012 06:21:02 PM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -89,6 +89,20 @@ TimeStamp = /506F6221;
 Reference = MH4;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /508570C8;
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = MADW__edge-connector_SIL6_female;
+EndCmp
+
+BeginCmp
+TimeStamp = /508570CC;
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = MADW__edge-connector_SIL6_male;
 EndCmp
 
 BeginCmp

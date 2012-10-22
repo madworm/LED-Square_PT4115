@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Oct 2012 12:05:23 PM CEST
+EESchema Schematic File Version 2  date Mon 22 Oct 2012 06:20:21 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
-Date "6 oct 2012"
+Date "22 oct 2012"
 Rev "0.10"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -45,33 +45,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6550 2250 2    60   ~ 0
-D6HS
-Text Label 6250 1750 2    60   ~ 0
-D5HS
-Text Label 5950 2250 2    60   ~ 0
-D4HS
-Text Label 5650 1750 2    60   ~ 0
-D3HS
-Text Label 5350 2250 2    60   ~ 0
-D2HS
-Text Label 5050 1750 2    60   ~ 0
-D1HS
-$Comp
-L GND #PWR01
-U 1 1 506F6245
-P 1600 2950
-F 0 "#PWR01" H 1600 2950 30  0001 C CNN
-F 1 "GND" H 1600 2880 30  0001 C CNN
-	1    1600 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 1600 2850
+Connection ~ 2550 3450
 Wire Wire Line
-	1600 2950 1600 2550
-Connection ~ 1600 2650
+	2550 3450 2550 3550
 Wire Wire Line
-	1600 2650 1650 2650
+	2550 3550 2500 3550
+Connection ~ 2550 3650
+Wire Wire Line
+	2550 3650 2550 3750
+Wire Wire Line
+	2550 3750 2500 3750
+Wire Wire Line
+	2500 3950 2600 3950
+Wire Wire Line
+	1400 3950 1500 3950
+Wire Wire Line
+	1500 3750 1450 3750
+Connection ~ 1450 3650
+Wire Wire Line
+	1450 3750 1450 3650
+Connection ~ 1450 3450
+Wire Wire Line
+	1450 3450 1450 3550
+Wire Wire Line
+	1450 3550 1500 3550
 Wire Wire Line
 	1950 2050 1950 2200
 Connection ~ 4100 2500
@@ -143,12 +140,101 @@ Wire Wire Line
 Wire Wire Line
 	1650 2050 1650 2200
 Wire Wire Line
-	1600 2850 1650 2850
+	1250 3500 1250 3450
 Wire Wire Line
-	1600 2550 1650 2550
+	1250 3450 1500 3450
 Wire Wire Line
-	1600 2750 1650 2750
-Connection ~ 1600 2750
+	1250 3700 1250 3650
+Wire Wire Line
+	1250 3650 1500 3650
+Wire Wire Line
+	3050 2200 3100 2200
+Wire Wire Line
+	2500 3650 2750 3650
+Wire Wire Line
+	2750 3650 2750 3700
+Wire Wire Line
+	2500 3450 2750 3450
+Wire Wire Line
+	2750 3450 2750 3500
+NoConn ~ 2500 3850
+NoConn ~ 1500 3850
+Text Label 2600 3950 0    60   ~ 0
+DIM
+Text Label 1400 3950 2    60   ~ 0
+DIM
+Text Label 3050 2200 2    60   ~ 0
+DIM
+$Comp
+L VCC #PWR?
+U 1 1 5085715F
+P 2750 3700
+F 0 "#PWR?" H 2750 3800 30  0001 C CNN
+F 1 "VCC" H 2750 3800 30  0000 C CNN
+	1    2750 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5085714E
+P 1250 3700
+F 0 "#PWR?" H 1250 3800 30  0001 C CNN
+F 1 "VCC" H 1250 3800 30  0000 C CNN
+	1    1250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50857132
+P 2750 3500
+F 0 "#PWR?" H 2750 3500 30  0001 C CNN
+F 1 "GND" H 2750 3430 30  0001 C CNN
+	1    2750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50857116
+P 1250 3500
+F 0 "#PWR?" H 1250 3500 30  0001 C CNN
+F 1 "GND" H 1250 3430 30  0001 C CNN
+	1    1250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P2
+U 1 1 508570CC
+P 2150 3700
+F 0 "P2" V 2100 3700 60  0000 C CNN
+F 1 "OUT" V 2200 3700 60  0000 C CNN
+	1    2150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 508570C8
+P 1850 3700
+F 0 "P1" V 1800 3700 60  0000 C CNN
+F 1 "IN" V 1900 3700 60  0000 C CNN
+	1    1850 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 2850
+NoConn ~ 1650 2750
+NoConn ~ 1650 2650
+NoConn ~ 1650 2550
+Text Label 6550 2250 2    60   ~ 0
+D6HS
+Text Label 6250 1750 2    60   ~ 0
+D5HS
+Text Label 5950 2250 2    60   ~ 0
+D4HS
+Text Label 5650 1750 2    60   ~ 0
+D3HS
+Text Label 5350 2250 2    60   ~ 0
+D2HS
+Text Label 5050 1750 2    60   ~ 0
+D1HS
 $Comp
 L CONN_1 MH4
 U 1 1 506F6221
@@ -185,7 +271,6 @@ F 1 "CONN_1" H 1800 2605 30  0001 C CNN
 	1    1800 2550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3100 2200
 Text Label 4000 2300 0    60   ~ 0
 CSN
 Text Label 4100 2750 2    60   ~ 0
