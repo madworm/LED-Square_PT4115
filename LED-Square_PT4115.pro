@@ -1,4 +1,4 @@
-update=Sat 06 Oct 2012 01:12:28 AM CEST
+update=Wed 24 Oct 2012 12:27:11 AM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -84,7 +84,7 @@ TxtModH=600
 TxtModW=120
 VEgarde=0
 DrawLar=150
-EdgeLar=150
+EdgeLar=50
 TxtLar=120
 MSegLar=150
 LastNetListRead=LED-Square_PT4115.net
