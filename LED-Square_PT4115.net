@@ -1,6 +1,22 @@
-# EESchema Netlist Version 1.1 created  Mon 22 Oct 2012 06:21:02 PM CEST
+# EESchema Netlist Version 1.1 created  Wed 24 Oct 2012 06:44:12 AM CEST
 (
- ( /506F358E -C0805 C1 10µF
+ ( /506F358E -C1206 C1 10µF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /50877166 -C0805 C2 10µF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5087716E -C0805 C3 10µF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /50877171 -C0805 C4 10µF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /50877174 -C0805 C5 10µF
   ( 1 VCC )
   ( 2 GND )
  )
@@ -79,6 +95,26 @@
 *
 { Allowed footprints by component:
 $component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
  SM*
  C?
  C1-1

@@ -1,8 +1,36 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 22 Oct 2012 06:21:02 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Wed 24 Oct 2012 06:59:54 AM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
 Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50877166;
+Reference = C2;
+ValeurCmp = 10µF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5087716E;
+Reference = C3;
+ValeurCmp = 10µF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50877171;
+Reference = C4;
+ValeurCmp = 10µF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50877174;
+Reference = C5;
 ValeurCmp = 10µF;
 IdModule  = -C0805;
 EndCmp
