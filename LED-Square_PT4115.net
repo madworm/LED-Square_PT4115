@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 24 Oct 2012 06:44:12 AM CEST
+# EESchema Netlist Version 1.1 created  Sat 27 Oct 2012 06:03:51 PM CEST
 (
  ( /506F358E -C1206 C1 10µF
   ( 1 VCC )
@@ -18,6 +18,14 @@
  )
  ( /50877174 -C0805 C5 10µF
   ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /508C042E -C0805 C6 1.25µF/s
+  ( 1 /DIM )
+  ( 2 GND )
+ )
+ ( /508C055B -C0805 C7 C
+  ( 1 /DIM )
   ( 2 GND )
  )
  ( /506F397A MADW__Nichia-NSS-LED__handsolder D1 LED
@@ -115,6 +123,16 @@ $component C4
  C1-1
 $endlist
 $component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
  SM*
  C?
  C1-1
