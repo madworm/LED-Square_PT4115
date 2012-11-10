@@ -1,4 +1,4 @@
-update=Wed 24 Oct 2012 12:27:11 AM CEST
+update=Fri 09 Nov 2012 10:51:59 AM CET
 version=1
 last_client=pcbnew
 [general]
@@ -103,3 +103,4 @@ LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=valves
 LibName13=ref-packages
+LibName14=con-jack
