@@ -1,123 +1,135 @@
-# EESchema Netlist Version 1.1 created  Sun 11 Nov 2012 12:09:43 AM CET
+# EESchema Netlist Version 1.1 created  Sun 11 Nov 2012 09:42:38 PM CET
 (
- ( /506F358E -C1206 C1 10µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /50A00A38 $noname  DZ1 BZX84C_5V6 {Lib=MADW__ZENER_SOT23}
+  (    1 GND )
+  (    3 /_dim )
  )
- ( /50877166 -C0805 C2 10µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /509FF5DB $noname  R2 1k {Lib=R}
+  (    1 /DIM )
+  (    2 /_dim )
  )
- ( /5087716E -C0805 C3 10µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /509EDDE6 $noname  R1 1M {Lib=R}
+  (    1 /_dim )
+  (    2 GND )
  )
- ( /50877171 -C0805 C4 10µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /508C042E $noname  C6 1.25µF/s {Lib=C}
+  (    1 /_dim )
+  (    2 GND )
  )
- ( /50877174 -C0805 C5 10µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /50877174 $noname  C5 10µF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /508C042E -C0805 C6 1.25µF/s
-  ( 1 /DIM )
-  ( 2 GND )
+ ( /50877171 $noname  C4 10µF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /506F397A MADW__Nichia-NSS-LED__handsolder D1 LED
-  ( 1 /CSN )
-  ( 2 /D1HS )
+ ( /5087716E $noname  C3 10µF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /506F3981 MADW__Nichia-NSS-LED__handsolder D2 LED
-  ( 1 /D1HS )
-  ( 2 /D2HS )
+ ( /50877166 $noname  C2 10µF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /506F3988 MADW__Nichia-NSS-LED__handsolder D3 LED
-  ( 1 /D2HS )
-  ( 2 /D3HS )
+ ( /508570CC $noname  P2 OUT {Lib=CONN_6}
+  (    1 /DIM )
+  (    2 ? )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 GND )
+  (    6 GND )
  )
- ( /506F398F MADW__Nichia-NSS-LED__handsolder D4 LED
-  ( 1 /D3HS )
-  ( 2 /D4HS )
+ ( /508570C8 $noname  P1 IN {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 /DIM )
  )
- ( /506F398B MADW__Nichia-NSS-LED__handsolder D5 LED
-  ( 1 /D4HS )
-  ( 2 /D5HS )
+ ( /506F6221 $noname  MH4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /506F398D MADW__Nichia-NSS-LED__handsolder D6 LED
-  ( 1 /D5HS )
-  ( 2 /D6HS )
+ ( /506F621F $noname  MH3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /506F350F MADW__diode-SMB-package DS1 MBRS140T3G
-  ( 1 /SW )
-  ( 2 VCC )
+ ( /506F621C $noname  MH2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /506F3487 -L1812 L1 100µH
-  ( 1 /SW )
-  ( 2 /D6HS )
+ ( /506F6219 $noname  MH1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /506F6219 MADW__mounting_hole_3mm MH1 CONN_1
-  ( 1 ? )
+ ( /506F398F $noname  D4 LED {Lib=LED}
+  (    1 /D3HS )
+  (    2 /D4HS )
  )
- ( /506F621C MADW__mounting_hole_3mm MH2 CONN_1
-  ( 1 ? )
+ ( /506F398D $noname  D6 LED {Lib=LED}
+  (    1 /D5HS )
+  (    2 /D6HS )
  )
- ( /506F621F MADW__mounting_hole_3mm MH3 CONN_1
-  ( 1 ? )
+ ( /506F398B $noname  D5 LED {Lib=LED}
+  (    1 /D4HS )
+  (    2 /D5HS )
  )
- ( /506F6221 MADW__mounting_hole_3mm MH4 CONN_1
-  ( 1 ? )
+ ( /506F3988 $noname  D3 LED {Lib=LED}
+  (    1 /D2HS )
+  (    2 /D3HS )
  )
- ( /508570C8 MADW__edge-connector_SIL6_female P1 IN
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 VCC )
-  ( 4 VCC )
-  ( 5 ? )
-  ( 6 /DIM )
+ ( /506F3981 $noname  D2 LED {Lib=LED}
+  (    1 /D1HS )
+  (    2 /D2HS )
  )
- ( /508570CC MADW__edge-connector_SIL6_male P2 OUT
-  ( 1 /DIM )
-  ( 2 ? )
-  ( 3 VCC )
-  ( 4 VCC )
-  ( 5 GND )
-  ( 6 GND )
+ ( /506F397A $noname  D1 LED {Lib=LED}
+  (    1 /CSN )
+  (    2 /D1HS )
  )
- ( /509EDDE6 -R0805 R1 1M
-  ( 1 /DIM )
-  ( 2 GND )
+ ( /506F358E $noname  C1 10µF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /506F3496 -R0805 R_CS1 1R
-  ( 1 VCC )
-  ( 2 /CSN )
+ ( /506F350F $noname  DS1 MBRS140T3G {Lib=DIODESCH}
+  (    1 /SW )
+  (    2 VCC )
  )
- ( /506F3463 MADW__SOT89-5 U1 PT4115-SOT89-5
-  ( 1 /SW )
-  ( 2 GND )
-  ( 3 /DIM )
-  ( 4 /CSN )
-  ( 5 VCC )
+ ( /506F3496 $noname  R_CS1 1R {Lib=R}
+  (    1 VCC )
+  (    2 /CSN )
+ )
+ ( /506F3487 $noname  L1 100µH {Lib=INDUCTOR}
+  (    1 /SW )
+  (    2 /D6HS )
+ )
+ ( /506F3463 $noname  U1 PT4115-SOT89-5 {Lib=MADW__PT4115-SOT89-5}
+  (    1 /SW )
+  (    2 GND )
+  (    3 /_dim )
+  (    4 /CSN )
+  (    5 VCC )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
+$component DZ1
+ D?
+ SO*
  SM*
- C?
- C1-1
 $endlist
-$component C2
- SM*
- C?
- C1-1
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component C3
- SM*
- C?
- C1-1
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component C4
+$component C6
  SM*
  C?
  C1-1
@@ -127,48 +139,22 @@ $component C5
  C?
  C1-1
 $endlist
-$component C6
+$component C4
  SM*
  C?
  C1-1
 $endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C3
+ SM*
+ C?
+ C1-1
 $endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C2
+ SM*
+ C?
+ C1-1
 $endlist
 $component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
  LED-3MM
  LED-5MM
  LED-10MM
@@ -186,16 +172,50 @@ $component D6
  LED-1206
  LEDV
 $endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
 $component DS1
  D?
  S*
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
 $endlist
 $component R_CS1
  R?
@@ -206,3 +226,69 @@ $component R_CS1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 7 "/DIM" "DIM"
+ P1 6
+ R2 1
+ P2 1
+Net 8 "/D4HS" "D4HS"
+ D4 2
+ D5 1
+Net 9 "/D5HS" "D5HS"
+ D6 1
+ D5 2
+Net 10 "/D2HS" "D2HS"
+ D3 1
+ D2 2
+Net 11 "/D3HS" "D3HS"
+ D3 2
+ D4 1
+Net 12 "/SW" "SW"
+ L1 1
+ U1 1
+ DS1 1
+Net 13 "/D6HS" "D6HS"
+ D6 2
+ L1 2
+Net 14 "/_dim" "_dim"
+ U1 3
+ DZ1 3
+ R2 2
+ C6 1
+ R1 1
+Net 15 "/D1HS" "D1HS"
+ D2 1
+ D1 2
+Net 16 "/CSN" "CSN"
+ U1 4
+ D1 1
+ R_CS1 2
+Net 17 "GND" "GND"
+ R1 2
+ DZ1 1
+ C1 2
+ C2 2
+ P2 5
+ P2 6
+ P1 1
+ P1 2
+ C6 2
+ U1 2
+ C3 2
+ C4 2
+ C5 2
+Net 18 "VCC" "VCC"
+ C3 1
+ P2 4
+ C5 1
+ P1 4
+ P1 3
+ P2 3
+ C4 1
+ U1 5
+ R_CS1 1
+ DS1 2
+ C1 1
+ C2 1
+}
+#End

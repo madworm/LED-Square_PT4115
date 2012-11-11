@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 11 Nov 2012 12:09:43 AM CET
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 11 Nov 2012 09:28:32 PM CET
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -92,6 +92,13 @@ IdModule  = MADW__diode-SMB-package;
 EndCmp
 
 BeginCmp
+TimeStamp = /50A00A38;
+Reference = DZ1;
+ValeurCmp = BZX84C_5V6;
+IdModule  = -SOT23;
+EndCmp
+
+BeginCmp
 TimeStamp = /506F3487;
 Reference = L1;
 ValeurCmp = 100µH;
@@ -144,6 +151,13 @@ BeginCmp
 TimeStamp = /509EDDE6;
 Reference = R1;
 ValeurCmp = 1M;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509FF5DB;
+Reference = R2;
+ValeurCmp = 1k;
 IdModule  = -R0805;
 EndCmp
 
