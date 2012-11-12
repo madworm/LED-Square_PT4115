@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 11 Nov 2012 09:42:30 PM CET
+EESchema Schematic File Version 2  date Mon 12 Nov 2012 11:21:15 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LED-Square_PT4115-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr User 8265 5866
 encoding utf-8
