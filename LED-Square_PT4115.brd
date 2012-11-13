@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 13 Nov 2012 01:53:56 PM CET
+PCBNEW-BOARD Version 1 date Tue 13 Nov 2012 05:54:32 PM CET
 
 # Created by Pcbnew(2012-10-05 BZR 3752)-testing
 
@@ -4796,9 +4796,9 @@ $TEXTPCB
 Te "VCC: 18-24V DC"
 nl "DIM: 0-2.5V DC or 5V PWM"
 nl ""
-nl "C6: soft-start: 1.25µF/s"
-nl "(skip C6 when PWM-ing)"
-Po 34252 48583 400 400 80 0
+nl "C6: soft-start: 1.25µF/s (skip with ext. PWM)"
+nl "R2: 1M with soft-start, 10k with ext. PWM"
+Po 34252 48819 400 400 80 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB

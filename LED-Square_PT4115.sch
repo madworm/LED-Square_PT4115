@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 13 Nov 2012 03:39:00 PM CET
+EESchema Schematic File Version 2  date Tue 13 Nov 2012 05:49:50 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -676,6 +676,6 @@ F 1 "PT4115-SOT89-5" H 1700 1750 60  0000 C CNN
 	1    1700 1450
 	1    0    0    -1  
 $EndComp
-Text Notes 550  5300 0    60   ~ 0
-(*) don't use C6 when driving DIM with a 5V PWM signal.
+Text Notes 550  5100 0    60   ~ 0
+(*) Don't use C6 when driving DIM with a 5V PWM signal.\n    Replace R1 with a 10k pull-down resistor.
 $EndSCHEMATC
