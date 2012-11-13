@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Mon 12 Nov 2012 11:40:55 PM CET
+PCBNEW-BOARD Version 1 date Tue 13 Nov 2012 01:53:56 PM CET
 
 # Created by Pcbnew(2012-10-05 BZR 3752)-testing
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "LED-Square PT4115"
-Date "12 nov 2012"
+Date "13 nov 2012"
 Rev "0.2"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -4794,9 +4794,11 @@ De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "VCC: 18-24V DC"
-nl "DIM: 5V PWM"
-nl "soft-start: 1.25µF/s"
-Po 34252 49213 400 400 80 0
+nl "DIM: 0-2.5V DC or 5V PWM"
+nl ""
+nl "C6: soft-start: 1.25µF/s"
+nl "(skip C6 when PWM-ing)"
+Po 34252 48583 400 400 80 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
