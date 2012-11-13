@@ -1,0 +1,13 @@
+
+PT4115 failure modes:
+=====================
+
+* Busted DIM pin. This one REALLY needs over-voltage protection!
+  (5.6V Zener diode + dropper resistor)
+
+  Observed manifestations:
+
+  - LOW resistance from DIM to GND (6 Ohm, or 30-ish Ohm)
+  - LEDs are permanently on + massive overcurrent
+  - LEDs are permanently off
+
