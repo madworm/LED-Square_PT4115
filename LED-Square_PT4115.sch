@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 13 Nov 2012 05:49:50 PM CET
+EESchema Schematic File Version 2  date Sun 18 Nov 2012 06:39:24 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -33,12 +33,12 @@ LIBS:valves
 LIBS:LED-Square_PT4115-cache
 EELAYER 27 0
 EELAYER END
-$Descr User 8265 5866
+$Descr User 8268 5846
 encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
 Date "13 nov 2012"
-Rev "0.20"
+Rev "1.0"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""

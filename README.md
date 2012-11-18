@@ -10,8 +10,13 @@ LED type: Nichia NSSL157AT-H3 / NSSW157AT-H3
 Made with:
 ----------
 
-KiCad Bazaar revision 3752.
+KiCad Bazaar revision 3804.
 
 Older versions of kicad/pcbnew may throw DRC errors
 for the GND pads of the SOT89-5 package.
 
+
+Final version:
+--------------
+
+V1.0 - DONE
