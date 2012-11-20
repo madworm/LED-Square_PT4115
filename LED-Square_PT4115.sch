@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 18 Nov 2012 06:39:24 PM CET
+EESchema Schematic File Version 2  date Tue 20 Nov 2012 04:58:50 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
-Date "13 nov 2012"
+Date "20 nov 2012"
 Rev "1.0"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -50,7 +50,7 @@ L MADW__ZENER_SOT23 DZ1
 U 1 1 50A00A38
 P 950 3200
 F 0 "DZ1" H 950 3300 50  0000 C CNN
-F 1 "BZX84C_5V6" H 950 3100 40  0000 C CNN
+F 1 "BZX84C_5V1" H 950 3100 40  0000 C CNN
 	1    950  3200
 	0    -1   -1   0   
 $EndComp

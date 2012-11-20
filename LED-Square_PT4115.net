@@ -1,6 +1,6 @@
-# EESchema Netlist Version 1.1 created  Sun 11 Nov 2012 09:42:38 PM CET
+# EESchema Netlist Version 1.1 created  Tue 20 Nov 2012 04:59:01 PM CET
 (
- ( /50A00A38 $noname  DZ1 BZX84C_5V6 {Lib=MADW__ZENER_SOT23}
+ ( /50A00A38 $noname  DZ1 BZX84C_5V1 {Lib=MADW__ZENER_SOT23}
   (    1 GND )
   (    3 /_dim )
  )

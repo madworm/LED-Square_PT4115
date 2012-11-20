@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 11 Nov 2012 09:28:32 PM CET
+Cmp-Mod V01 Created by CvPcb (2012-11-15 BZR 3804)-testing date = Tue 20 Nov 2012 04:59:14 PM CET
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -94,7 +94,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50A00A38;
 Reference = DZ1;
-ValeurCmp = BZX84C_5V6;
+ValeurCmp = BZX84C_5V1;
 IdModule  = -SOT23;
 EndCmp
 
