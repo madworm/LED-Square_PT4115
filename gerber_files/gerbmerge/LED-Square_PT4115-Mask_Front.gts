@@ -1,1 +1,0 @@
-../LED-Square_PT4115-Mask_Front.gts
