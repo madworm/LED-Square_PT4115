@@ -1,294 +1,315 @@
-# EESchema Netlist Version 1.1 created  Tue 20 Nov 2012 04:59:01 PM CET
-(
- ( /50A00A38 $noname  DZ1 BZX84C_5V1 {Lib=MADW__ZENER_SOT23}
-  (    1 GND )
-  (    3 /_dim )
- )
- ( /509FF5DB $noname  R2 1k {Lib=R}
-  (    1 /DIM )
-  (    2 /_dim )
- )
- ( /509EDDE6 $noname  R1 1M {Lib=R}
-  (    1 /_dim )
-  (    2 GND )
- )
- ( /508C042E $noname  C6 1.25µF/s {Lib=C}
-  (    1 /_dim )
-  (    2 GND )
- )
- ( /50877174 $noname  C5 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /50877171 $noname  C4 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5087716E $noname  C3 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /50877166 $noname  C2 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /508570CC $noname  P2 OUT {Lib=CONN_6}
-  (    1 /DIM )
-  (    2 ? )
-  (    3 VCC )
-  (    4 VCC )
-  (    5 GND )
-  (    6 GND )
- )
- ( /508570C8 $noname  P1 IN {Lib=CONN_6}
-  (    1 GND )
-  (    2 GND )
-  (    3 VCC )
-  (    4 VCC )
-  (    5 ? )
-  (    6 /DIM )
- )
- ( /506F6221 $noname  MH4 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /506F621F $noname  MH3 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /506F621C $noname  MH2 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /506F6219 $noname  MH1 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /506F398F $noname  D4 LED {Lib=LED}
-  (    1 /D3HS )
-  (    2 /D4HS )
- )
- ( /506F398D $noname  D6 LED {Lib=LED}
-  (    1 /D5HS )
-  (    2 /D6HS )
- )
- ( /506F398B $noname  D5 LED {Lib=LED}
-  (    1 /D4HS )
-  (    2 /D5HS )
- )
- ( /506F3988 $noname  D3 LED {Lib=LED}
-  (    1 /D2HS )
-  (    2 /D3HS )
- )
- ( /506F3981 $noname  D2 LED {Lib=LED}
-  (    1 /D1HS )
-  (    2 /D2HS )
- )
- ( /506F397A $noname  D1 LED {Lib=LED}
-  (    1 /CSN )
-  (    2 /D1HS )
- )
- ( /506F358E $noname  C1 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /506F350F $noname  DS1 MBRS140T3G {Lib=DIODESCH}
-  (    1 /SW )
-  (    2 VCC )
- )
- ( /506F3496 $noname  R_CS1 1R {Lib=R}
-  (    1 VCC )
-  (    2 /CSN )
- )
- ( /506F3487 $noname  L1 100µH {Lib=INDUCTOR}
-  (    1 /SW )
-  (    2 /D6HS )
- )
- ( /506F3463 $noname  U1 PT4115-SOT89-5 {Lib=MADW__PT4115-SOT89-5}
-  (    1 /SW )
-  (    2 GND )
-  (    3 /_dim )
-  (    4 /CSN )
-  (    5 VCC )
- )
-)
-*
-{ Allowed footprints by component:
-$component DZ1
- D?
- SO*
- SM*
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component DS1
- D?
- S*
-$endlist
-$component R_CS1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 7 "/DIM" "DIM"
- P1 6
- R2 1
- P2 1
-Net 8 "/D4HS" "D4HS"
- D4 2
- D5 1
-Net 9 "/D5HS" "D5HS"
- D6 1
- D5 2
-Net 10 "/D2HS" "D2HS"
- D3 1
- D2 2
-Net 11 "/D3HS" "D3HS"
- D3 2
- D4 1
-Net 12 "/SW" "SW"
- L1 1
- U1 1
- DS1 1
-Net 13 "/D6HS" "D6HS"
- D6 2
- L1 2
-Net 14 "/_dim" "_dim"
- U1 3
- DZ1 3
- R2 2
- C6 1
- R1 1
-Net 15 "/D1HS" "D1HS"
- D2 1
- D1 2
-Net 16 "/CSN" "CSN"
- U1 4
- D1 1
- R_CS1 2
-Net 17 "GND" "GND"
- R1 2
- DZ1 1
- C1 2
- C2 2
- P2 5
- P2 6
- P1 1
- P1 2
- C6 2
- U1 2
- C3 2
- C4 2
- C5 2
-Net 18 "VCC" "VCC"
- C3 1
- P2 4
- C5 1
- P1 4
- P1 3
- P2 3
- C4 1
- U1 5
- R_CS1 1
- DS1 2
- C1 1
- C2 1
-}
-#End
+(export (version D)
+  (design
+    (source /home/robert/Electronics/Arduino/KiCAD/Projects/LED-Square_PT4115/LED-Square_PT4115.sch)
+    (date "Wed 05 Mar 2014 02:56:25 PM CET")
+    (tool "eeschema (2014-03-03 BZR 4732)-product"))
+  (components
+    (comp (ref DZ1)
+      (value BZX84C_5V1)
+      (libsource (lib my_parts) (part MADW__ZENER_SOT23))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50A00A38))
+    (comp (ref R2)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 509FF5DB))
+    (comp (ref R1)
+      (value 1M)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 509EDDE6))
+    (comp (ref C6)
+      (value 1.25µF/s)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 508C042E))
+    (comp (ref C5)
+      (value 10µF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50877174))
+    (comp (ref C4)
+      (value 10µF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50877171))
+    (comp (ref C3)
+      (value 10µF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5087716E))
+    (comp (ref C2)
+      (value 10µF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50877166))
+    (comp (ref P2)
+      (value OUT)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 508570CC))
+    (comp (ref P1)
+      (value IN)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 508570C8))
+    (comp (ref MH4)
+      (value CONN_1)
+      (libsource (lib conn) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F6221))
+    (comp (ref MH3)
+      (value CONN_1)
+      (libsource (lib conn) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F621F))
+    (comp (ref MH2)
+      (value CONN_1)
+      (libsource (lib conn) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F621C))
+    (comp (ref MH1)
+      (value CONN_1)
+      (libsource (lib conn) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F6219))
+    (comp (ref D4)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F398F))
+    (comp (ref D6)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F398D))
+    (comp (ref D5)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F398B))
+    (comp (ref D3)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F3988))
+    (comp (ref D2)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F3981))
+    (comp (ref D1)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F397A))
+    (comp (ref C1)
+      (value 10µF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F358E))
+    (comp (ref DS1)
+      (value "SS14L (40V, 1A)")
+      (libsource (lib my_parts) (part DIODESCH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F350F))
+    (comp (ref R_CS1)
+      (value 1R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F3496))
+    (comp (ref L1)
+      (value 100µH)
+      (libsource (lib device) (part INDUCTOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F3487))
+    (comp (ref U1)
+      (value PT4115-SOT89-5)
+      (libsource (lib my_parts) (part MADW__PT4115-SOT89-5))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 506F3463)))
+  (libparts
+    (libpart (lib my_parts) (part DIODESCH)
+      (description "Diode schottky")
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODESCH))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name C) (type passive))))
+    (libpart (lib my_parts) (part MADW__PT4115-SOT89-5)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MADW__PT4115-SOT89-5))
+      (pins
+        (pin (num 1) (name SW) (type openCol))
+        (pin (num 2) (name GND) (type passive))
+        (pin (num 3) (name DIM) (type input))
+        (pin (num 4) (name CSN) (type input))
+        (pin (num 5) (name VIN) (type power_in))))
+    (libpart (lib my_parts) (part MADW__ZENER_SOT23)
+      (description "Diode zener")
+      (footprints
+        (fp D?)
+        (fp SO*)
+        (fp SM*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) MADW__ZENER_SOT23))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_1)
+      (description "1 pin")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive)))))
+  (libraries
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical my_parts)
+      (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
+  (nets
+    (net (code 1) (name "Net-(P2-Pad2)")
+      (node (ref P2) (pin 2)))
+    (net (code 2) (name "Net-(P1-Pad5)")
+      (node (ref P1) (pin 5)))
+    (net (code 3) (name "Net-(MH4-Pad1)")
+      (node (ref MH4) (pin 1)))
+    (net (code 4) (name "Net-(MH3-Pad1)")
+      (node (ref MH3) (pin 1)))
+    (net (code 5) (name "Net-(MH2-Pad1)")
+      (node (ref MH2) (pin 1)))
+    (net (code 6) (name "Net-(MH1-Pad1)")
+      (node (ref MH1) (pin 1)))
+    (net (code 7) (name /DIM)
+      (node (ref P1) (pin 6))
+      (node (ref R2) (pin 1))
+      (node (ref P2) (pin 1)))
+    (net (code 8) (name /D4HS)
+      (node (ref D4) (pin 2))
+      (node (ref D5) (pin 1)))
+    (net (code 9) (name /D5HS)
+      (node (ref D6) (pin 1))
+      (node (ref D5) (pin 2)))
+    (net (code 10) (name /D2HS)
+      (node (ref D3) (pin 1))
+      (node (ref D2) (pin 2)))
+    (net (code 11) (name /D3HS)
+      (node (ref D3) (pin 2))
+      (node (ref D4) (pin 1)))
+    (net (code 12) (name /SW)
+      (node (ref L1) (pin 1))
+      (node (ref U1) (pin 1))
+      (node (ref DS1) (pin 1)))
+    (net (code 13) (name /D6HS)
+      (node (ref D6) (pin 2))
+      (node (ref L1) (pin 2)))
+    (net (code 14) (name /_dim)
+      (node (ref U1) (pin 3))
+      (node (ref DZ1) (pin 3))
+      (node (ref R2) (pin 2))
+      (node (ref C6) (pin 1))
+      (node (ref R1) (pin 1)))
+    (net (code 15) (name /D1HS)
+      (node (ref D2) (pin 1))
+      (node (ref D1) (pin 2)))
+    (net (code 16) (name /CSN)
+      (node (ref U1) (pin 4))
+      (node (ref D1) (pin 1))
+      (node (ref R_CS1) (pin 2)))
+    (net (code 17) (name GND)
+      (node (ref R1) (pin 2))
+      (node (ref DZ1) (pin 1))
+      (node (ref C1) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref P2) (pin 5))
+      (node (ref P2) (pin 6))
+      (node (ref P1) (pin 1))
+      (node (ref P1) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref U1) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref C5) (pin 2)))
+    (net (code 18) (name VCC)
+      (node (ref C3) (pin 1))
+      (node (ref P2) (pin 4))
+      (node (ref C5) (pin 1))
+      (node (ref P1) (pin 4))
+      (node (ref P1) (pin 3))
+      (node (ref P2) (pin 3))
+      (node (ref C4) (pin 1))
+      (node (ref U1) (pin 5))
+      (node (ref R_CS1) (pin 1))
+      (node (ref DS1) (pin 2))
+      (node (ref C1) (pin 1))
+      (node (ref C2) (pin 1)))))

@@ -1,101 +1,129 @@
-Cmp-Mod V01 Created by CvPcb (2012-11-15 BZR 3804)-testing date = Tue 20 Nov 2012 04:59:14 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-03-03 BZR 4732)-product date = Wed 05 Mar 2014 02:59:01 PM CET
 
 BeginCmp
-TimeStamp = /506F358E;
-Reference = C1;
-ValeurCmp = 10µF;
-IdModule  = -C1206;
+TimeStamp = /506F6221;
+Reference = MH4;
+ValeurCmp = CONN_1;
+IdModule  = my_parts:MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /50877166;
-Reference = C2;
-ValeurCmp = 10µF;
-IdModule  = -C0805;
+TimeStamp = /506F621F;
+Reference = MH3;
+ValeurCmp = CONN_1;
+IdModule  = my_parts:MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5087716E;
-Reference = C3;
-ValeurCmp = 10µF;
-IdModule  = -C0805;
+TimeStamp = /506F621C;
+Reference = MH2;
+ValeurCmp = CONN_1;
+IdModule  = my_parts:MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /50877171;
-Reference = C4;
-ValeurCmp = 10µF;
-IdModule  = -C0805;
+TimeStamp = /506F6219;
+Reference = MH1;
+ValeurCmp = CONN_1;
+IdModule  = my_parts:MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /50877174;
-Reference = C5;
-ValeurCmp = 10µF;
-IdModule  = -C0805;
+TimeStamp = /508570CC;
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = my_parts:MADW__edge-connector_SIL6_male;
 EndCmp
 
 BeginCmp
-TimeStamp = /508C042E;
-Reference = C6;
-ValeurCmp = 1.25µF/s;
-IdModule  = -C0805;
+TimeStamp = /508570C8;
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = my_parts:MADW__edge-connector_SIL6_female;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F397A;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
+TimeStamp = /506F350F;
+Reference = DS1;
+ValeurCmp = SS14L (40V, 1A);
+IdModule  = my_parts:MADW__diode_sub-SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F3981;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
-EndCmp
-
-BeginCmp
-TimeStamp = /506F3988;
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
+TimeStamp = /506F3463;
+Reference = U1;
+ValeurCmp = PT4115-SOT89-5;
+IdModule  = my_parts:MADW__SOT89-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398F;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398B;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
 EndCmp
 
 BeginCmp
 TimeStamp = /506F398D;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = MADW__Nichia-NSS-LED__handsolder;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F350F;
-Reference = DS1;
-ValeurCmp = MBRS140T3G;
-IdModule  = MADW__diode-SMB-package;
+TimeStamp = /506F3981;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F397A;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3988;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = my_parts:MADW__Nichia-NT2x757DT;
 EndCmp
 
 BeginCmp
 TimeStamp = /50A00A38;
 Reference = DZ1;
 ValeurCmp = BZX84C_5V1;
-IdModule  = -SOT23;
+IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3496;
+Reference = R_CS1;
+ValeurCmp = 1R;
+IdModule  = my_parts:MADW__R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509FF5DB;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = my_parts:MADW__R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509EDDE6;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = my_parts:MADW__R0805;
 EndCmp
 
 BeginCmp
@@ -106,73 +134,45 @@ IdModule  = -L1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F6219;
-Reference = MH1;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
+TimeStamp = /506F358E;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F621C;
-Reference = MH2;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
+TimeStamp = /50877166;
+Reference = C2;
+ValeurCmp = 10µF;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F621F;
-Reference = MH3;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
+TimeStamp = /5087716E;
+Reference = C3;
+ValeurCmp = 10µF;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F6221;
-Reference = MH4;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
+TimeStamp = /50877171;
+Reference = C4;
+ValeurCmp = 10µF;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /508570C8;
-Reference = P1;
-ValeurCmp = IN;
-IdModule  = MADW__edge-connector_SIL6_female;
+TimeStamp = /50877174;
+Reference = C5;
+ValeurCmp = 10µF;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /508570CC;
-Reference = P2;
-ValeurCmp = OUT;
-IdModule  = MADW__edge-connector_SIL6_male;
-EndCmp
-
-BeginCmp
-TimeStamp = /509EDDE6;
-Reference = R1;
-ValeurCmp = 1M;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /509FF5DB;
-Reference = R2;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /506F3496;
-Reference = R_CS1;
-ValeurCmp = 1R;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /506F3463;
-Reference = U1;
-ValeurCmp = PT4115-SOT89-5;
-IdModule  = MADW__SOT89-5;
+TimeStamp = /508C042E;
+Reference = C6;
+ValeurCmp = 1.25µF/s;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 EndListe
