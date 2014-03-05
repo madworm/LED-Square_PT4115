@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
 Date "05 Mar 2014"
-Rev "1.1"
+Rev "1.11"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	800  1600 800  1700
 Wire Wire Line
-	2950 1350 2950 1450
+	2950 1250 2950 1450
 Wire Wire Line
 	2950 1450 2150 1450
 Wire Wire Line
@@ -167,9 +167,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 900  4700 950 
 Wire Wire Line
-	2150 1350 2400 1350
+	2400 1350 2150 1350
 Wire Wire Line
-	2400 1350 2400 1300
+	2400 1200 2400 1350
 Wire Wire Line
 	800  1050 800  1200
 Wire Wire Line
@@ -536,7 +536,7 @@ Text Label 2150 1450 0    60   ~ 0
 CSN
 Text Label 2250 1900 2    60   ~ 0
 SW
-Text Notes 2300 1150 0    60   ~ 0
+Text Notes 2300 1050 0    60   ~ 0
 (24V)
 Text Notes 3700 750  0    60   ~ 0
 White LEDs
@@ -620,12 +620,12 @@ $EndComp
 $Comp
 L VCC #PWR016
 U 1 1 506F3A0F
-P 2400 1300
-F 0 "#PWR016" H 2400 1400 30  0001 C CNN
-F 1 "VCC" H 2400 1400 30  0000 C CNN
-F 2 "" H 2400 1300 60  0001 C CNN
-F 3 "" H 2400 1300 60  0001 C CNN
-	1    2400 1300
+P 2400 1200
+F 0 "#PWR016" H 2400 1300 30  0001 C CNN
+F 1 "VCC" H 2400 1300 30  0000 C CNN
+F 2 "" H 2400 1200 60  0001 C CNN
+F 3 "" H 2400 1200 60  0001 C CNN
+	1    2400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -730,12 +730,12 @@ $EndComp
 $Comp
 L R R_CS1
 U 1 1 506F3496
-P 2650 1350
-F 0 "R_CS1" V 2750 1350 50  0000 C CNN
-F 1 "1R" V 2650 1350 50  0000 C CNN
-F 2 "" H 2650 1350 60  0001 C CNN
-F 3 "" H 2650 1350 60  0001 C CNN
-	1    2650 1350
+P 2650 1250
+F 0 "R_CS1" V 2750 1250 50  0000 C CNN
+F 1 "1R1" V 2650 1250 50  0000 C CNN
+F 2 "" H 2650 1250 60  0001 C CNN
+F 3 "" H 2650 1250 60  0001 C CNN
+	1    2650 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -762,4 +762,18 @@ F 3 "" H 1700 1450 60  0001 C CNN
 $EndComp
 Text Notes 550  5100 0    60   ~ 0
 (*) Don't use C6 when driving DIM with a 5V PWM signal.\n    Replace R1 with a 10k pull-down resistor.
+$Comp
+L R R_CS2
+U 1 1 531746E7
+P 2650 1350
+F 0 "R_CS2" V 2600 1350 50  0001 C CNN
+F 1 "1R1" V 2650 1350 50  0000 C CNN
+F 2 "" H 2650 1350 60  0001 C CNN
+F 3 "" H 2650 1350 60  0001 C CNN
+	1    2650 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 1250 2950 1250
+Connection ~ 2400 1250
 $EndSCHEMATC
