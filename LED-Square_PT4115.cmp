@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-03 BZR 4732)-product date = Wed 05 Mar 2014 04:44:45 PM CET
+Cmp-Mod V01 Created by Cvpcb (2014-09-13 BZR 5129)-product   date = Sat 13 Sep 2014 09:01:36 PM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /506F3487;
 Reference = L1;
 ValeurCmp = 100µH;
-IdModule  = -L1812;
+IdModule  = my_parts:MADW__L4.8x3.3mm;
 EndCmp
 
 BeginCmp

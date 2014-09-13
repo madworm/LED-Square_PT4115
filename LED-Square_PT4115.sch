@@ -37,8 +37,8 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 1 1
 Title "LED-Square PT4115"
-Date "05 Mar 2014"
-Rev "1.11"
+Date "13 Sep 2014"
+Rev "1.2"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -398,8 +398,6 @@ F 3 "" H 5750 1150 60  0001 C CNN
 	1    5750 1150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6850 2250
-NoConn ~ 5850 2250
 Text Label 6950 2350 0    60   ~ 0
 DIM
 Text Label 5750 2350 2    60   ~ 0
@@ -776,4 +774,14 @@ $EndComp
 Wire Wire Line
 	2900 1250 2950 1250
 Connection ~ 2400 1250
+Wire Wire Line
+	6850 2250 6900 2250
+Wire Wire Line
+	6900 2250 6900 2350
+Connection ~ 6900 2350
+Wire Wire Line
+	5800 2350 5800 2250
+Wire Wire Line
+	5800 2250 5850 2250
+Connection ~ 5800 2350
 $EndSCHEMATC
