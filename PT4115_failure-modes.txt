@@ -3,7 +3,7 @@ PT4115 failure modes:
 =====================
 
 * Busted DIM pin. This one REALLY needs over-voltage protection!
-  (5.6V Zener diode + dropper resistor)
+  (5.1V Zener diode + dropper resistor)
 
   Observed manifestations:
 
